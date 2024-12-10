@@ -17,23 +17,23 @@ export function Header() {
         <div className="flex items-center justify-end space-x-2">
 
           {/* <Sidebar size={24} /> */}
-          <a href="./">
+          {/* <a href="./">
             <NotePencil size={24} />
-          </a>
+          </a> */}
         </div>
         <span className="inline-flex items-center home-links whitespace-nowrap">
           <a href="https://developersdigest.tech" rel="noopener" target="_blank">
             <span className="block sm:inline text-lg sm:text-xl lg:text-2xl font-semibold dark:text-white text-black">answer <span className="linear-wipe">engine</span></span>
           </a>
         </span>
-        <a
+        {/* <a
           target="_blank"
           href="https://git.new/answr"
           rel="noopener noreferrer"
 
         >
           <GithubLogo size={24} />
-        </a>
+        </a> */}
       </header>
       {/* <Sidebar isOpen={isSidebarOpen} onClose={toggleSidebar} /> */}
     </>
