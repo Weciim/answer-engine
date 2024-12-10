@@ -21,11 +21,11 @@ export function Header() {
             <NotePencil size={24} />
           </a> */}
         </div>
-        <span className="inline-flex items-center home-links whitespace-nowrap">
+        {/* <span className="inline-flex items-center home-links whitespace-nowrap">
           <a href="https://developersdigest.tech" rel="noopener" target="_blank">
             <span className="block sm:inline text-lg sm:text-xl lg:text-2xl font-semibold dark:text-white text-black">answer <span className="linear-wipe">engine</span></span>
           </a>
-        </span>
+        </span> */}
         {/* <a
           target="_blank"
           href="https://git.new/answr"
